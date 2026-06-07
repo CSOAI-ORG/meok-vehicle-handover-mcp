@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-vehicle-handover-mcp",
+    "description": "Vehicle handover compliance \u2014 NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-vehicle-handover-mcp"
+      }
+    ],
+    "capabilities": [
+      "grade_vehicle_condition",
+      "validate_pod_photo_set",
+      "compare_collection_delivery",
+      "apply_bvrla_fair_wear_tear",
+      "generate_dispute_pack",
+      "calculate_rha_vs_actual_liability",
+      "submit_to_bvrla_drs",
+      "log_ev_soc_handover"
+    ]
+  }
+}

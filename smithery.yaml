@@ -1,0 +1,34 @@
+name: meok-vehicle-handover-mcp
+description: 'Vehicle handover compliance — NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-vehicle-handover-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: grade_vehicle_condition
+  description: grade vehicle condition
+- name: validate_pod_photo_set
+  description: validate pod photo set
+- name: compare_collection_delivery
+  description: compare collection delivery
+- name: apply_bvrla_fair_wear_tear
+  description: apply bvrla fair wear tear
+- name: generate_dispute_pack
+  description: generate dispute pack
+- name: calculate_rha_vs_actual_liability
+  description: calculate rha vs actual liability
+- name: submit_to_bvrla_drs
+  description: submit to bvrla drs
+- name: log_ev_soc_handover
+  description: log ev soc handover
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

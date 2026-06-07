@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-vehicle-handover-mcp"
+version = "1.0.1"
+description = "Vehicle handover compliance — NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD validation, RHA liability cap, BVRLA DRS dispute pack. For UK car-transport operators. Avoids ~£8k/mo chargebacks on a 100-vehicle fleet. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "vehicle-handover", "nama-grading", "bvrla", "fair-wear-tear", "car-transport", "rha-liability", "pod", "dispute-resolution", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-vehicle-handover-mcp"
+
+[project.scripts]
+meok-vehicle-handover-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

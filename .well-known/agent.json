@@ -1,0 +1,95 @@
+{
+  "name": "meok-vehicle-handover-mcp",
+  "description": "Vehicle handover compliance \u2014 NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD",
+  "url": "https://proofof.ai/scorecard/meok-vehicle-handover-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "grade_vehicle_condition",
+      "name": "Grade Vehicle Condition",
+      "description": "grade_vehicle_condition via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_pod_photo_set",
+      "name": "Validate Pod Photo Set",
+      "description": "validate_pod_photo_set via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "compare_collection_delivery",
+      "name": "Compare Collection Delivery",
+      "description": "compare_collection_delivery via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "apply_bvrla_fair_wear_tear",
+      "name": "Apply Bvrla Fair Wear Tear",
+      "description": "apply_bvrla_fair_wear_tear via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_dispute_pack",
+      "name": "Generate Dispute Pack",
+      "description": "generate_dispute_pack via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_rha_vs_actual_liability",
+      "name": "Calculate Rha Vs Actual Liability",
+      "description": "calculate_rha_vs_actual_liability via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "submit_to_bvrla_drs",
+      "name": "Submit To Bvrla Drs",
+      "description": "submit_to_bvrla_drs via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "log_ev_soc_handover",
+      "name": "Log Ev Soc Handover",
+      "description": "log_ev_soc_handover via meok-vehicle-handover-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

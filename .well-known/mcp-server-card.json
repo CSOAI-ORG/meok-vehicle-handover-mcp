@@ -1,0 +1,37 @@
+{
+  "name": "meok-vehicle-handover-mcp",
+  "title": "Meok Vehicle Handover Mcp",
+  "description": "Vehicle handover compliance \u2014 NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD validation, RHA liability cap, BVRLA DRS dispute pack. For UK car-transport operators. Avoids ~\u00a38k/mo chargebacks on a 100-vehicle fleet. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "grade_vehicle_condition"
+    },
+    {
+      "name": "validate_pod_photo_set"
+    },
+    {
+      "name": "compare_collection_delivery"
+    },
+    {
+      "name": "apply_bvrla_fair_wear_tear"
+    },
+    {
+      "name": "generate_dispute_pack"
+    },
+    {
+      "name": "calculate_rha_vs_actual_liability"
+    },
+    {
+      "name": "submit_to_bvrla_drs"
+    },
+    {
+      "name": "log_ev_soc_handover"
+    }
+  ]
+}
