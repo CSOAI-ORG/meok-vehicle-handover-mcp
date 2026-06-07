@@ -57,7 +57,7 @@ pip install meok-vehicle-handover-mcp
 - **Pro** — £149/mo (multi-user + dispute-pack templates)
 - **Fleet** — £799/mo (100+ vehicles/day, audit-export, SLA)
 
-[Subscribe Pro → £149/mo](https://buy.stripe.com/4gMfZja8seUWbEx1Uc8k915) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £149/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis (informational — not legal advice)
 
