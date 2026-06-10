@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-vehicle-handover-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-vehicle-handover-mcp"
+      ]
+    }
+  }
+}
