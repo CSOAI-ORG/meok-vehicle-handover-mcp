@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-vehicle-handover-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "Vehicle handover compliance — NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD validation, RHA liability cap, BVRLA DRS dispute pack. For UK car-transport operators. Avoids ~£8k/mo chargebacks on a 100-vehicle fleet. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
