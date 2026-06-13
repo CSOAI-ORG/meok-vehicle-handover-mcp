@@ -1,0 +1,160 @@
+{
+  "name": "Meok Vehicle Handover Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-vehicle-handover-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Vehicle handover compliance — NAMA Vehicle Grading, BVRLA Fair Wear & Tear, photographic POD validation, RHA liability cap, BVRLA DRS dispute pack. For UK car-transport operators. Avoids ~£8k/mo chargebacks on a 100-vehicle fleet. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "grade_vehicle_condition",
+      "name": "Grade Vehicle Condition",
+      "description": "Grade Vehicle Condition — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_pod_photo_set",
+      "name": "Validate Pod Photo Set",
+      "description": "Validate Pod Photo Set — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "compare_collection_delivery",
+      "name": "Compare Collection Delivery",
+      "description": "Compare Collection Delivery — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "apply_bvrla_fair_wear_tear",
+      "name": "Apply Bvrla Fair Wear Tear",
+      "description": "Apply Bvrla Fair Wear Tear — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_dispute_pack",
+      "name": "Generate Dispute Pack",
+      "description": "Generate Dispute Pack — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "calculate_rha_vs_actual_liability",
+      "name": "Calculate Rha Vs Actual Liability",
+      "description": "Calculate Rha Vs Actual Liability — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "submit_to_bvrla_drs",
+      "name": "Submit To Bvrla Drs",
+      "description": "Submit To Bvrla Drs — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "log_ev_soc_handover",
+      "name": "Log Ev Soc Handover",
+      "description": "Log Ev Soc Handover — a tool of the meok-vehicle-handover-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-vehicle-handover-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
