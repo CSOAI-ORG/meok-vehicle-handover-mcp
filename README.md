@@ -89,3 +89,8 @@ Part of the **MEOK Car Transport** stack on haulage.app:
 ## License
 
 MIT © 2026 Nicholas Templeman / MEOK AI Labs · [haulage.app](https://haulage.app)
+
+## See also
+
+MEOK compliance MCP fleet:
+[`meok-uk-phv-tfl-mcp`](https://github.com/CSOAI-ORG/meok-uk-phv-tfl-mcp)
